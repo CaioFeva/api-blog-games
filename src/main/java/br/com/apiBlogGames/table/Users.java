@@ -29,4 +29,7 @@ public class Users implements Serializable {
     @Column(name = "type_games", nullable = false)
     private String typeGames;
 
+    @Column(name = "email_user", nullable = false)
+    private String userEmail;
+
 }
