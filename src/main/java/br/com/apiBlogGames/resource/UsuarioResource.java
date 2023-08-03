@@ -18,7 +18,7 @@ public class UsuarioResource {
 
     @Autowired
     UsuarioService usuarioService;
-   @Autowired
+    @Autowired
     TypeGamesService typeGamesService;
 
 
